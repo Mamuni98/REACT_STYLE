@@ -1,5 +1,5 @@
-// import React from "react";
-// import "./Button.css";
+//import React from "react";
+//import styles from "./Button.module.css";
 import styled from "styled-components";
 const Button = styled.button`
   width: 100%;
@@ -10,7 +10,6 @@ const Button = styled.button`
   background: ${(props) => (props.invalid ? "red" : "#8b005d")};
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
   cursor: pointer;
-  
   @media (min-width: 768px) {
     width: auto;
   }
